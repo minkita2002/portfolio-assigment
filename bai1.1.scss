@@ -1,0 +1,260 @@
+$header-color: #1A0B2E ;
+$body-color: rgb(16, 2, 32);
+$footer-color: rgb(16, 2, 32);
+@mixin disTance{
+    padding-bottom: 200px;
+}
+@mixin textPreahvihear{
+    font-family: 'Preahvihear';
+}
+@mixin textPoppins{
+    font-family: 'Poppins';
+}
+@mixin templateGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@mixin templateFlex{
+    display: flex;
+}
+p{
+    color: antiquewhite;
+}
+.warpper{
+    width: 1980px;
+    margin: 0 auto;
+    header{
+        @include templateFlex();
+        background-color: $header-color;
+        height:113px;
+        .icon{
+            margin-top: 47px;
+            margin-left: 497px;
+            width: 35px;
+            height: 39px;
+            border-bottom: 4px solid rgba(255, 255, 255, 1);
+            border-top: 4px solid rgba(255, 255, 255, 1);
+        }
+        nav{
+            margin-left: 614px;
+            margin-top: 43px;
+            a{
+                margin-left: 134px;
+                color: white;
+                text-decoration: none;
+            
+            }
+            a:hover{
+                color: brown;
+                background-color: aqua;
+            }
+        }
+    }
+    article{
+        padding: 0px 360px 0px 468px;
+        background-color: $body-color;
+        .content1{
+            @include templateFlex();
+            img{
+                padding-top: 305.96px;
+            }
+            .about{
+                padding-top: 105.72px;
+            }
+            p{
+                @include textPreahvihear();
+                margin: 0px;
+            }
+            .type-text1{
+                padding-top: 150.96px;
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 97px;
+            }
+            .type-text2{
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 30.71px;
+            }
+            .type-text3{
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 63.33px;
+            }
+            .type-text4{
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 19.87px;
+            }
+        }
+        .content2{
+            @include textPreahvihear();
+            @include disTance();
+            .type-text5{
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 90px;
+                letter-spacing: 0.02em;
+            }
+            .type-text6{
+                font-size: 21px;
+                font-weight: 400;
+                line-height: 38px;
+                letter-spacing: 0.02em;
+            }
+            .type-text7{
+                padding-top: 60px;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 40px;
+                letter-spacing: 0.02em;
+                text-align: left;
+            }
+        }
+        .content3{
+            @include disTance();
+            .about1{
+                @include textPreahvihear();
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 72px;
+                letter-spacing: 0.02em;
+                text-align: left;
+    
+            }
+            .grade{
+                @include templateGrid();
+                gap: 30px;
+                margin-top: 30px;
+                .block{
+                    @include templateFlex();
+                    border: 1px solid $header-color;
+                    border-radius: 10px;
+                    background-color: #693B93;
+                    padding: 20px;
+                    p{
+                        @include textPoppins();
+                        margin: 0px;
+                        padding-left: 50px;
+                    }
+                    .type-text8{
+                        font-size: 26px;
+                        font-weight: 600;
+                        line-height: 33px;
+                        letter-spacing: 0em;
+                    }
+                    .type-text9{
+                        font-size: 8px;
+                        font-weight: 500;
+                        line-height: 11px;
+                        letter-spacing: 0em;
+                    }
+                    button{
+                        @include textPoppins();
+                        text-align: center;
+                        border-radius: 10px;
+                        margin-left: 50px;
+                        margin-top: 20px;
+                        background-color: #693B93;
+                        color: wheat;
+                        font-size: 10px;
+                        font-weight: 500;
+                        line-height: 15px;
+                        letter-spacing: 0px;
+                    }
+                }
+            }
+        }
+        .content4{
+            padding-left: 119px;
+            @include disTance();
+        }
+        .content5{
+            p{
+                @include textPoppins();
+            }
+            .grade{
+                .block1{
+                    @include templateGrid();
+                    @include disTance();
+                    p{
+                        margin: 0px;
+                    }
+                    img{
+                        background: #2B0B3A;
+                        border-radius: 20px;
+                    }
+                    .hinh{
+                        height: 341px;
+                        background: #2B0B3A;
+                        border-radius: 20px;
+                        position: relative;
+                        img{
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                        }
+                    }
+                    .text-right{
+                        text-align: right;
+                    }
+                    .type-text10{
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                    }
+                    .type-text11{
+                        font-size: 34px;
+                        font-weight: 600;
+                        line-height: 51px;
+                    }
+                    .type-text12{
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 27px;
+                        background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(105, 59, 147, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+                        border: 1px solid orange;
+                        border-radius: 14px;
+                        position: relative;
+                        z-index: 2;
+                    }
+                    .text-left{
+                        position: relative;
+                        left: 100px;
+                        z-index: 2;
+                    }
+                    .text-rightt{
+                        position: relative;
+                        right: 100px;
+                        z-index: 2;
+                    }
+                }
+                
+            }
+        }
+    }
+    footer{
+        background-color: $footer-color;
+        padding: 0px 381px 500px 300px;
+        p{
+            margin: 0px;
+        }
+        .type-text13{
+            @include textPreahvihear();
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 45px;
+            letter-spacing: 0.02em;
+            padding-bottom: 50px
+        }
+        .type-text14{
+            @include textPreahvihear();
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0.02em;
+            padding-bottom: 20px;
+            padding-left: 60px;
+        }
+    }
+}

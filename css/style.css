@@ -1,0 +1,239 @@
+p {
+  color: antiquewhite;
+}
+
+.warpper {
+  width: 1980px;
+  margin: 0 auto;
+}
+.warpper header {
+  display: flex;
+  background-color: #1A0B2E;
+  height: 113px;
+}
+.warpper header .icon {
+  margin-top: 47px;
+  margin-left: 497px;
+  width: 35px;
+  height: 39px;
+  border-bottom: 4px solid rgb(255, 255, 255);
+  border-top: 4px solid rgb(255, 255, 255);
+}
+.warpper header nav {
+  margin-left: 614px;
+  margin-top: 43px;
+}
+.warpper header nav a {
+  margin-left: 134px;
+  color: white;
+  text-decoration: none;
+}
+.warpper header nav a:hover {
+  color: brown;
+  background-color: aqua;
+}
+.warpper article {
+  padding: 0px 360px 0px 468px;
+  background-color: rgb(16, 2, 32);
+}
+.warpper article .content1 {
+  display: flex;
+}
+.warpper article .content1 img {
+  padding-top: 305.96px;
+}
+.warpper article .content1 .about {
+  padding-top: 105.72px;
+}
+.warpper article .content1 p {
+  font-family: "Preahvihear";
+  margin: 0px;
+}
+.warpper article .content1 .type-text1 {
+  padding-top: 150.96px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 97px;
+}
+.warpper article .content1 .type-text2 {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30.71px;
+}
+.warpper article .content1 .type-text3 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 63.33px;
+}
+.warpper article .content1 .type-text4 {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 19.87px;
+}
+.warpper article .content2 {
+  font-family: "Preahvihear";
+  padding-bottom: 200px;
+}
+.warpper article .content2 .type-text5 {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: 0.02em;
+}
+.warpper article .content2 .type-text6 {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+}
+.warpper article .content2 .type-text7 {
+  padding-top: 60px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.warpper article .content3 {
+  padding-bottom: 200px;
+}
+.warpper article .content3 .about1 {
+  font-family: "Preahvihear";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.warpper article .content3 .grade {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+.warpper article .content3 .grade .block {
+  display: flex;
+  border: 1px solid #1A0B2E;
+  border-radius: 10px;
+  background-color: #693B93;
+  padding: 20px;
+}
+.warpper article .content3 .grade .block p {
+  font-family: "Poppins";
+  margin: 0px;
+  padding-left: 50px;
+}
+.warpper article .content3 .grade .block .type-text8 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+}
+.warpper article .content3 .grade .block .type-text9 {
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 11px;
+  letter-spacing: 0em;
+}
+.warpper article .content3 .grade .block button {
+  font-family: "Poppins";
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: #693B93;
+  color: wheat;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0px;
+}
+.warpper article .content4 {
+  padding-left: 119px;
+  padding-bottom: 200px;
+}
+.warpper article .content5 p {
+  font-family: "Poppins";
+}
+.warpper article .content5 .grade .block1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 200px;
+}
+.warpper article .content5 .grade .block1 p {
+  margin: 0px;
+}
+.warpper article .content5 .grade .block1 img {
+  background: #2B0B3A;
+  border-radius: 20px;
+}
+.warpper article .content5 .grade .block1 .hinh {
+  height: 341px;
+  background: #2B0B3A;
+  border-radius: 20px;
+  position: relative;
+}
+.warpper article .content5 .grade .block1 .hinh img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.warpper article .content5 .grade .block1 .text-right {
+  text-align: right;
+}
+.warpper article .content5 .grade .block1 .type-text10 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.warpper article .content5 .grade .block1 .type-text11 {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 51px;
+}
+.warpper article .content5 .grade .block1 .type-text12 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  background: radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(105, 59, 147, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%);
+  border: 1px solid orange;
+  border-radius: 14px;
+  position: relative;
+  z-index: 2;
+}
+.warpper article .content5 .grade .block1 .text-left {
+  position: relative;
+  left: 100px;
+  z-index: 2;
+}
+.warpper article .content5 .grade .block1 .text-rightt {
+  position: relative;
+  right: 100px;
+  z-index: 2;
+}
+.warpper footer {
+  background-color: rgb(16, 2, 32);
+  padding: 0px 381px 500px 300px;
+}
+.warpper footer p {
+  margin: 0px;
+}
+.warpper footer .type-text13 {
+  font-family: "Preahvihear";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+  padding-bottom: 50px;
+}
+.warpper footer .type-text14 {
+  font-family: "Preahvihear";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */
